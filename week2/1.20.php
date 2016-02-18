@@ -7,5 +7,3 @@
  */
 
 header('Location: 1.20.html');
-
-/*this is a comment*/

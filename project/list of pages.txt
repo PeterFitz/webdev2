@@ -1,0 +1,9 @@
+Home (index)
+about 
+contact (form)
+login
+gallery
+
+
+appointment ? ? 
+admin page for trainer ? ? 

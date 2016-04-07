@@ -1,0 +1,1 @@
+This file had to be created in order to create a new folder for the project

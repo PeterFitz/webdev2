@@ -5,7 +5,7 @@
  * Date: 05/04/2016
  * Time: 16:04
  */
-// THIS COMMENT IS BEING CREATED TO TEST CHANGES IN GIT
+
 require_once __DIR__ . '/../src/MainController.php';
 
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);

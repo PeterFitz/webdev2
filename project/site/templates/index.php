@@ -1,7 +1,8 @@
 <?php
-require_once __DIR__ . '/../templates/header1.inc.php';
+/*require_once __DIR__ . '/../templates/header1.inc.php';*/
+require_once 'header1.inc.php';
 print '<title>Home</title>';
-require_once __DIR__ . '/../templates/header2.inc.php';
+require_once 'header2.inc.php';
 //-------------------------------------------
 ?>
 
@@ -40,6 +41,6 @@ This site offers information on health and fitness, bookings with a personal tra
 
 <?php
 //-------------------------------------------
-require_once __DIR__ . '/../templates/footer.inc.php';
+require_once 'footer.inc.php';
 
 //  don't close the PHP tags

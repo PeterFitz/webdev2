@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../templates/header1.inc.php';
 print '<title>About</title>';
-require_once __DIR__ . '/../templates/header2.inc.php';
+require_once 'header2.inc.php';
 //-------------------------------------------
 ?>
 

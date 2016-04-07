@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . '/../templates/header1.inc.php';
+require_once 'header1.inc.php';
 print '<title>Site Map</title>';
-require_once __DIR__ . '/../templates/header2.inc.php';
+require_once 'header2.inc.php';
 //-------------------------------------------
 ?>
 
@@ -44,6 +44,6 @@ require_once __DIR__ . '/../templates/header2.inc.php';
 
 <?php
 //-------------------------------------------
-require_once __DIR__ . '/../templates/footer.inc.php';
+require_once 'footer.inc.php';
 
 //  don't close the PHP tags

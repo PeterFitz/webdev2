@@ -6,6 +6,7 @@
  * Time: 08:44
  */
 
+namespace mainController;
 
 class MainController
 

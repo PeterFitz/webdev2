@@ -34,11 +34,11 @@ require_once 'header2.inc.php';
 </h1>
 
 <ul>
-    <li><a href="index.php">Home</a>
-    <li><a href="about.php">About</a>
-    <li><a href="contact.php">Contact</a>
-    <li><a href="login.php">Login</a>
-    <li><a href="sitemap.php">Site Map</a>
+    <li><a href="../public/index.php">Home</a>
+    <li><a href="../public/index.php?action=about">About</a>
+    <li><a href="../public/index.php?action=contact">Contact</a>
+    <li><a href="../public/index.php?action=login">Login</a>
+    <li><a href="../public/index.php?action=sitemap">Site Map</a>
 </ul>
 
 

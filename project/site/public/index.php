@@ -6,11 +6,11 @@
  * Time: 16:04
  */
 
-require_once __DIR__ . '/../src/MainController.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
 
-$mainController = new MainController();
+$mainController = new mainController\MainController();
 
 /*if ('about' == $action)
 

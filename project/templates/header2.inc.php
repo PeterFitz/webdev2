@@ -8,6 +8,17 @@
 </head>
 <body>
 
-<header>
-    <img src="../images/smithit_logo.gif" alt="logo">
-</header>
+<!--<header>
+
+    <img src="../images/splits.jpg" alt="logo" id=""header_img">
+
+</header>-->
+
+<div id="wrapper">
+
+<div id="header">
+
+    <img src="../images/splits.jpg" alt="logo" id="header_img">
+
+</div> <!-- close header div -->
+

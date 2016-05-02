@@ -31,7 +31,7 @@ require_once 'header2.inc.php';
 </nav>
 
 <h1>
-Welcome to John Smith Personal Trainer Home Page
+Welcome to John Doyle Personal Trainer Home Page
 </h1>
 
 <p>

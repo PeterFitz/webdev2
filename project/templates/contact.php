@@ -31,33 +31,46 @@ require_once 'header2.inc.php';
     </nav>
 
 <h1>
-    Contact
+    Contact Me
 </h1>
 
-<h3>Address</h3>
-<p>
-    SmithIT.com,
-<p>
-    c/o ITB Learning and Innovation Centre,
-    <br/>
-    Blanchardstown Road North,
-    <br/>
-    Blanchardstown,
-    <br/>
-    Dublin 15
-    <br/>
-
-</p>
 
 <h3>Telephone</h3>
 <p>
-    01 - 885 - 1000
+    01 - 000 - 1000
 </p>
+    <br/>
 
 <h3>Email</h3>
 <p>
-    <a href="mailto:enquiries@smithit.com">enquiries@smithit.com</a>
+    <a href="mailto:enquiries@smithit.com">b00037296@student.itb.ie</a>
 </p>
+    <br/>
+
+<h3>Address</h3>
+
+    John Doyle<br/>
+    7 Ocean Crest<br/>
+    Dundrum<br/>
+    Dublin<br/>
+
+<br/>
+    <br/>
+<h3>Contact Form</h3>
+
+    <form action="../src/formHandler.php" method="post">
+        First name:<br>
+        <input type="text" name="firstname" value=""><br>
+        Last name:<br>
+        <input type="text" name="lastname" value=""><br>
+        Email:<br>
+        <input type="text" name="email" value=""><br><br>
+        Message:<br>
+        <input type="text" name="message" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
 
 
 <?php

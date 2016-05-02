@@ -38,7 +38,8 @@ body
     height: 100%;
 }
 
-/* ------- DVD table contents --------- */
+/*
+!* ------- DVD table contents --------- *!
 table, th, td, tr
 
 {
@@ -51,3 +52,4 @@ td
     width: 7rem;
     text-align: center;
 }
+*/

@@ -41,9 +41,9 @@ require_once 'header2.inc.php';
 
     <form action="../src/loginFormHandler.php" method="post">
         Username:<br>
-        <input type="text" name="username" value=""><br>
+        <input type="text" name="username" value="" required><br>
         Password:<br>
-        <input type="text" name="password" value=""><br><br>
+        <input type="password" name="password" value="" required><br><br>
         <input type="submit" value="Login">
     </form>
 

@@ -31,7 +31,7 @@ require_once 'header2.inc.php';
 </nav>
 
 <h1>
-Welcome to John Doyle Personal Trainer Home Page
+Total Fitness Gym & Leisure
 </h1>
 
 <p>

@@ -31,7 +31,7 @@ require_once 'header2.inc.php';
     </nav>
 
 <h1>
-    Contact Me
+    Contact Us
 </h1>
 
 
@@ -43,16 +43,16 @@ require_once 'header2.inc.php';
 
 <h3>Email</h3>
 <p>
-    <a href="mailto:enquiries@smithit.com">b00037296@student.itb.ie</a>
+    <a href="mailto:b00037296@student.itb.ie">b00037296@student.itb.ie</a>
 </p>
     <br/>
 
 <h3>Address</h3>
 
-    John Doyle<br/>
-    7 Ocean Crest<br/>
-    Dundrum<br/>
-    Dublin<br/>
+    Total Fitness<br/>
+    7 Ocean Road<br/>
+    Greystones<br/>
+    Co.Wicklow<br/>
 
 <br/>
     <br/>
@@ -64,9 +64,11 @@ require_once 'header2.inc.php';
         Last name:<br>
         <input type="text" name="lastname" value=""><br>
         Email:<br>
-        <input type="text" name="email" value=""><br><br>
+        <input type="email" name="email" value="" required><br>
+        Phone Number:<br>
+        <input type="tel" name="tel" value=""><br><br>
         Message:<br>
-        <input type="text" name="message" value=""><br><br>
+        <input type="text" name="message" value="" size="100" maxlength="500"><br><br>
         <input type="submit" value="Submit">
     </form>
 

@@ -58,7 +58,7 @@ require_once 'header2.inc.php';
     <br/>
 <h3>Contact Form</h3>
 
-    <form action="../src/formHandler.php" method="post">
+    <form action="../src/contactFormHandler.php" method="post">
         First name:<br>
         <input type="text" name="firstname" value=""><br>
         Last name:<br>

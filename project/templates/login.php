@@ -37,6 +37,16 @@ require_once 'header2.inc.php';
     </nav>
 
 
+<h3>Please Enter Your Login Details:</h3>
+
+    <form action="../src/loginFormHandler.php" method="post">
+        Username:<br>
+        <input type="text" name="username" value=""><br>
+        Password:<br>
+        <input type="text" name="password" value=""><br><br>
+        <input type="submit" value="Login">
+    </form>
+
 
 <?php
 //-------------------------------------------

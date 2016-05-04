@@ -16,7 +16,7 @@ class MainController
 
     {
 
-        include __DIR__ . '/../templates/index.php';
+        require_once __DIR__ . '/../templates/index.php';
 
     }
 
@@ -24,7 +24,7 @@ class MainController
 
     {
 
-        include __DIR__ . '/../templates/about.php';
+        require_once __DIR__ . '/../templates/about.php';
 
     }
 
@@ -32,7 +32,7 @@ class MainController
 
     {
 
-        include __DIR__ . '/../templates/contact.php';
+        require_once __DIR__ . '/../templates/contact.php';
 
     }
 
@@ -40,7 +40,7 @@ class MainController
 
     {
 
-        include __DIR__ . '/../templates/login.php';
+        require_once __DIR__ . '/../templates/login.php';
 
     }
 
@@ -48,7 +48,7 @@ class MainController
 
     {
 
-        include __DIR__ . '/../templates/sitemap.php';
+        require_once __DIR__ . '/../templates/sitemap.php';
 
     }
 

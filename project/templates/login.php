@@ -39,7 +39,7 @@ require_once 'header2.inc.php';
 
 <h3>Please Enter Your Login Details:</h3>
 
-    <form action="../src/loginFormHandler.php" method="post">
+    <form action="../src/LoginFormHandler.php" method="post">
         Username:<br>
         <input type="text" name="username" value="" required><br>
         Password:<br>

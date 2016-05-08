@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'mainController\\' => array($baseDir . '/src'),
+    'loginFormHandler\\' => array($baseDir . '/src'),
     'database\\' => array($baseDir . '/src'),
+    'contactFormHandler\\' => array($baseDir . '/src'),
 );

@@ -32,7 +32,7 @@ class MainController
 
     {
 
-        require_once __DIR__ . '/../templates/contact.php';
+        require_once __DIR__ . '/../templates/Contact.php';
 
     }
 
@@ -40,7 +40,7 @@ class MainController
 
     {
 
-        require_once __DIR__ . '/../templates/login.php';
+        require_once __DIR__ . '/../templates/Login.php';
 
     }
 

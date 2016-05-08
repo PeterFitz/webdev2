@@ -6,7 +6,10 @@
  * Time: 08:44
  */
 
-namespace mainController;
+/*namespace mainController;*/
+
+require_once __DIR__ . '/Database.php';
+
 
 class MainController
 
@@ -32,7 +35,7 @@ class MainController
 
     {
 
-        require_once __DIR__ . '/../templates/Contact.php';
+        require_once __DIR__ . '/../templates/contact.php';
 
     }
 
@@ -40,7 +43,7 @@ class MainController
 
     {
 
-        require_once __DIR__ . '/../templates/Login.php';
+        require_once __DIR__ . '/../templates/login.php';
 
     }
 
@@ -49,6 +52,20 @@ class MainController
     {
 
         require_once __DIR__ . '/../templates/sitemap.php';
+
+    }
+
+    public function enterLoginDetails($username, $password)
+
+    {
+
+        echo "Username: $username <br> Password: $password";
+
+        $dbConnection = new Database('localhost', 'root', 'password', 'totalfitness');
+
+        $dbConnection->connectToDB();
+
+        $dbConnection->loginAttempt($username, $password);
 
     }
 

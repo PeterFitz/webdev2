@@ -1,12 +1,5 @@
 {
 
-    "require": { "twig/twig": "^1.24" },
-
-    "autoload": { "psr-4": { "mainController\\": "src/",
-                            "contactFormHandler\\": "src/",
-                            "loginFormHandler\\": "src/",
-                            "database\\": "src/"} }
-
-
+    "require": { "twig/twig": "^1.24" }
 
 }

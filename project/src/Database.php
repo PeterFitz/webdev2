@@ -6,7 +6,7 @@
  * Time: 14:14
  */
 
-namespace database;
+/*namespace database;*/
 
 class Database
 
@@ -36,22 +36,34 @@ class Database
 
         {
 
-            $conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
+            $connection = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
 
             // set the PDO error mode to exception
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            echo "Connected successfully";
+            /*echo "<br>Connected successfully";*/
 
         }
 
-        catch(PDOException $e)
+        catch(PDOException $exception)
 
         {
 
-            echo "Connection failed: " . $e->getMessage();
+            echo "<br>Connection failed: " . $exception->getMessage();
 
         }
+
+
+    }
+
+
+    function loginAttempt($username, $password)
+
+
+    {
+
+
+        session_start(); 
 
 
     }
